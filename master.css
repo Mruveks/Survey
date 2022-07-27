@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body{
     text-align: center;
@@ -14,35 +13,73 @@ header{
     border-bottom: 1px solid #fff;
 }
 
-li{
-    text-decoration: none;
-    list-style: none;
+#result{
+    height: 10rem;
+    background: red;
+    color: black;
 }
 
+h2{
+    background: gray;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+h3{
+    background: gray;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;    
+    height: 4rem;
+    line-height: 4rem;
+    vertical-align: middle;
+}
+
+li:hover{
+    cursor: pointer;
+    background: lightgray;
+    color: black;
+}
 .survey{
-    display: grid;
-    grid-template-columns: 1;
-    gap: 2rem;
-    padding: 2rem;
-    
+    padding: 10rem;
+}
+ul{
+
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .q1{
     background: #333;
     width: 20rem;
     margin: 0 auto;
-
     display: block;
 }
 
 .q2{
+    background: #333;
+    width: 20rem;
+    margin: 0 auto;
     display: none;
 }
 
 .q3{
+    background: #333;
+    width: 20rem;
+    margin: 0 auto;
     display: none;
 }
 
 .q4{
+    display: none;
+}
+
+.end{
     display: none;
 }
