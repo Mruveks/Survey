@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background: gray; 
+    color: #fff;
+}
+
+header{
+    background: #333;
+    border-bottom: 1px solid #fff;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.survey{
+    display: grid;
+    grid-template-columns: 1;
+    gap: 2rem;
+    padding: 2rem;
+    
+}
+
+.q1{
+    background: #333;
+    width: 20rem;
+    margin: 0 auto;
+
+    display: block;
+}
+
+.q2{
+    display: none;
+}
+
+.q3{
+    display: none;
+}
+
+.q4{
+    display: none;
+}
